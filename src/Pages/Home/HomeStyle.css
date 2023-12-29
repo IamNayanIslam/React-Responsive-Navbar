@@ -1,0 +1,16 @@
+.home-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  min-height: 80vh;
+}
+
+.home-wrap img {
+  width: 300px;
+}
+
+.home-wrap h1 {
+  text-align: center;
+}
