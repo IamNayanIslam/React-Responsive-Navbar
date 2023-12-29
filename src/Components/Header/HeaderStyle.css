@@ -90,27 +90,25 @@ ul li:hover::after {
   display: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   ul.mobile-ul {
     position: absolute;
     top: 90px;
-    right: -300px;
+    right: -9999px;
     display: flex;
     flex-direction: column;
     justify-content: left;
     gap: 25px;
     background: #171c2a;
     width: 40%;
-    height: 50vh;
+    height: 100vh;
     padding: 20px;
     color: #fff;
     transition: 0.3s ease-in-out all;
-    visibility: none;
   }
 
   ul.slide-in {
     right: 0;
-    visibility: visible;
   }
 
   .open-close {
